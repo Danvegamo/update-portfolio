@@ -50,7 +50,7 @@ export const isDev = environment === 'development'
 export const name: string = getSiteConfig('name')
 export const author: string = getSiteConfig('author')
 export const domain: string = getSiteConfig('domain')
-export const description: string = getSiteConfig('description', 'Notion Blog')
+export const description: string = getSiteConfig('description', 'David Vega, portfolio from Notion')
 export const language: string = getSiteConfig('language', 'en')
 
 // social accounts
@@ -59,6 +59,7 @@ export const mastodon: string | null = getSiteConfig('mastodon', null)
 export const github: string | null = getSiteConfig('github', null)
 export const youtube: string | null = getSiteConfig('youtube', null)
 export const linkedin: string | null = getSiteConfig('linkedin', null)
+export const medium: string | null = getSiteConfig('medium', null)
 export const newsletter: string | null = getSiteConfig('newsletter', null)
 export const zhihu: string | null = getSiteConfig('zhihu', null)
 
