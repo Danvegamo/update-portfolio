@@ -43,28 +43,28 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  pageUrlOverrides: {
-   '/foo': 'ca3fec4980444233a2bc7dba30fbcd0c',
-   '/bar': '6a0fdf6c1f3640f88c900a5910e328af',
-   },
-  // pageUrlOverrides: null,
+  //pageUrlOverrides: {
+  // '/foo': 'ca3fec4980444233a2bc7dba30fbcd0c',
+  // '/bar': '6a0fdf6c1f3640f88c900a5910e328af',
+  // },
+   pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
   //navigationStyle: 'default',
   navigationStyle: 'custom',
-  // navigationLinks: [
-  //  {
-  //    title: 'About of me',
-  //   pageId: 'e56902269a40450295f9c86cdbe44e31'
-  //   },
-  //  {
-  //    title: 'Contact',
-  //    pageId: '5db3899cd19244488ab19baddf946826'
-  //  },
-  //  {
-  //    title: 'Blog',
-  //    url: 'https://medium.com/@d_vega'
-  //  }
-  // ]
+   navigationLinks: [
+    {
+      title: 'About of me',
+     pageId: 'e56902269a40450295f9c86cdbe44e31'
+    },
+    {
+      title: 'Contact',
+      pageId: '5db3899cd19244488ab19baddf946826'
+    },
+    {
+      title: 'Blog',
+    url: 'https://medium.com/@d_vega'
+    }
+   ]
 })
